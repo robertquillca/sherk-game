@@ -35,52 +35,52 @@ buttonYes.addEventListener('click', zomosNobios);
 botonNo.addEventListener('mouseover', ebitarKCRombaMyBobo);
 
 
-window.addEventListener('click', () => {
-  console.log('click');
-});
+// window.addEventListener('click', () => {
+//   console.log('click');
+// });
 
-window.addEventListener ('keydown', () =>{
-  console.log('keyDown');
-});
-
-
-window.addEventListener ('click', () => {
-  alert('you clicked me, thnaks!');
-});
-
-window.removeEventListener ('dblclick', () => {
-  alert('you clicked twice!');
-});
-
-// alerts
-alert('Some changes in the main screen!');
-
-// confirmation
-console.log(confirm('accept cookies'));
+// window.addEventListener ('keydown', () =>{
+//   console.log('keyDown');
+// });
 
 
-// --------------------
+// window.addEventListener ('click', () => {
+//   alert('you clicked me, thnaks!');
+// });
 
-const saludar = () => {
-  console.log('hello there!');
+// window.removeEventListener ('dblclick', () => {
+//   alert('you clicked twice!');
+// });
 
-  window.removeEventListener('click', saludar);
-}
+// // alerts
+// alert('Some changes in the main screen!');
 
-window.addEventListener('click', saludar)
-
-
-
-
-const userName = prompt('Type your name');
-console.log(userName);
+// // confirmation
+// console.log(confirm('accept cookies'));
 
 
-document.addEventListener('DOMContentLoaded', DocumentReady);
+// // --------------------
+
+// const saludar = () => {
+//   console.log('hello there!');
+
+//   window.removeEventListener('click', saludar);
+// }
+
+// window.addEventListener('click', saludar)
 
 
-const saludar = () => {
-  console.log('Hola como estás')
-}
-window.onclick = saludar;
+
+
+// const userName = prompt('Type your name');
+// console.log(userName);
+
+
+// document.addEventListener('DOMContentLoaded', DocumentReady);
+
+
+// const saludar = () => {
+//   console.log('Hola como estás')
+// }
+// window.onclick = saludar;
 
